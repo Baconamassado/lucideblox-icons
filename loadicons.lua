@@ -89,9 +89,9 @@ if jsonData and jsonData.icons then
     Icons = jsonData.icons
     print("Debug: Icons loaded: " .. tostring(Icons))
     print("Icon support system by bacon")
-    -- Como usar: Icons["nome do icone"]
-    -- a tabela pode ser encontrada nesse link: https://raw.githubusercontent.com/Baconamassado/lucideblox-icons/refs/heads/main/icons.json
-    -- tabela em inglês, para pesquisar icones use esse codigo python: 
+    -- How to use: Icons["icon name"]
+    -- The table can be found at this link: https://raw.githubusercontent.com/Baconamassado/lucideblox-icons/refs/heads/main/icons.json
+    -- The table is in English; to search for icons, use this Python code: https://github.com/Baconamassado/searchicons
 else
     warn("Error: 'icons' not found in JSON data.")
 end
